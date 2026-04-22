@@ -27,7 +27,7 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
-```
+```python
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
@@ -42,7 +42,7 @@ content='''
 <h2>2. MEAN Stack</h2>
 <h2>3. React </h2>
 </body>
-</html>
+</html>'''
 
 
 class MyServer(BaseHTTPRequestHandler):
@@ -86,9 +86,20 @@ httpd.serve_forever()
 
 
 ## OUTPUT:
-### CLIENT OUTPUT:
-
 ### SERVER OUTPUT:
+#### Code 
+<img width="761" height="484" alt="Screenshot 2026-04-22 093927" src="https://github.com/user-attachments/assets/75035d1b-858e-4ab8-8c51-158646f3f12d" />
+
+
+#### Output
+<img width="730" height="64" alt="Screenshot 2026-04-22 094001" src="https://github.com/user-attachments/assets/2349444f-adfc-438c-a800-272e0bae499b" />
+
+### CLIENT OUTPUT:
+#### Code 
+<img width="769" height="348" alt="Screenshot 2026-04-22 093939" src="https://github.com/user-attachments/assets/cbd0d960-8b97-4b7d-9545-2be5729eb971" />
+
+#### Output
+<img width="733" height="97" alt="Screenshot 2026-04-22 094012" src="https://github.com/user-attachments/assets/b4918c52-74c2-4db1-ba72-cdb19e8e8930" />
 
 ## RESULT:
 The program is executed succesfully
